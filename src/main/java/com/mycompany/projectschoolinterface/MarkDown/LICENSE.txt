@@ -1,0 +1,24 @@
+GoomezCode License (based on MIT License)
+Copyright (c) 2025 GoomezCode
+
+---
+ENGLISH VERSION
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to use and distribute copies of the Software for personal and educational purposes only, provided that the following conditions are met:
+
+1. No Modification – The Software may not be modified, altered, or reverse engineered in any way. Distribution of modified or derivative versions is strictly prohibited.
+2. Non-Commercial Use – The Software may not be sold, rented, sublicensed, or used for any commercial purpose.
+3. Attribution – This copyright notice and permission notice shall be included in all copies or substantial portions of the Software.
+4. Same License (Copyleft) – Any redistribution of this Software must retain this exact license, without any modification to its terms.
+5. No Warranty – THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+VERSÃO EM PORTUGUÊS
+
+Permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o “Software”), para uso pessoal e educacional apenas, desde que sejam atendidas as seguintes condições:
+
+1. Proibição de Modificação – O Software não pode ser modificado, alterado ou submetido a engenharia reversa de nenhuma forma. A distribuição de versões modificadas ou derivadas é estritamente proibida.
+2. Uso Não Comercial – O Software não pode ser vendido, alugado, sublicenciado ou utilizado para qualquer fim comercial.
+3. Atribuição – Este aviso de direitos autorais e de permissão deve ser incluído em todas as cópias ou partes substanciais do Software.
+4. Mesma Licença (Copyleft) – Qualquer redistribuição deste Software deve manter esta licença exatamente como está, sem alteração dos seus termos.
+5. Sem Garantia – ESTE SOFTWARE É FORNECIDO “NO ESTADO EM QUE SE ENCONTRA”, SEM QUALQUER GARANTIA, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO PROPÓSITO E NÃO VIOLAÇÃO. EM NENHUMA CIRCUNSTÂNCIA OS AUTORES OU DETENTORES DOS DIREITOS SERÃO RESPONSÁVEIS POR QUALQUER RECLAMAÇÃO, DANO OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO CONTRATUAL, CIVIL OU DE OUTRA NATUREZA, DECORRENTE DE OU RELACIONADA AO SOFTWARE OU AO USO OU OUTRAS INTERAÇÕES COM O SOFTWARE.
