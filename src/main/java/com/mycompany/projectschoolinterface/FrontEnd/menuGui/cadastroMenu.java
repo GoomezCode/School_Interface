@@ -79,8 +79,6 @@ public class cadastroMenu extends javax.swing.JFrame {
         cadastroEmployee.setText("Employee");
         cadastroEmployee.addActionListener(this::cadastroEmployeeActionPerformed);
 
-        panelStudent.setBackground(new java.awt.Color(255, 255, 255));
-
         jLabel1.setFont(new java.awt.Font("Inter", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Cadastro Student");
@@ -98,15 +96,19 @@ public class cadastroMenu extends javax.swing.JFrame {
         serieEscolarStudent.addActionListener(this::serieEscolarStudentActionPerformed);
 
         jLabel18.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setText("Nome Pai: ");
 
         jLabel19.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("Idade");
 
         jLabel20.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel20.setText("Serie Escolar:");
 
         jLabel21.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel21.setText("Rg:");
 
         nomeMaeStudent.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -114,6 +116,7 @@ public class cadastroMenu extends javax.swing.JFrame {
         nomeMaeStudent.addActionListener(this::nomeMaeStudentActionPerformed);
 
         jLabel22.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel22.setText("Nome Mãe: ");
 
         rgStudent.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -121,6 +124,7 @@ public class cadastroMenu extends javax.swing.JFrame {
         rgStudent.addActionListener(this::rgStudentActionPerformed);
 
         jLabel23.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel23.setText("Cpf:");
 
         idadeStudent.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -128,6 +132,7 @@ public class cadastroMenu extends javax.swing.JFrame {
         idadeStudent.addActionListener(this::idadeStudentActionPerformed);
 
         jLabel24.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel24.setText("Nome:");
 
         nomePaiStudent.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -142,45 +147,9 @@ public class cadastroMenu extends javax.swing.JFrame {
         panelStudentLayout.setHorizontalGroup(
             panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelStudentLayout.createSequentialGroup()
-                .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelStudentLayout.createSequentialGroup()
-                        .addGap(60, 60, 60)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panelStudentLayout.createSequentialGroup()
-                        .addGap(98, 98, 98)
-                        .addComponent(jLabel20)))
+                .addGap(60, 60, 60)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(panelStudentLayout.createSequentialGroup()
-                .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelStudentLayout.createSequentialGroup()
-                        .addGap(108, 108, 108)
-                        .addComponent(jLabel22))
-                    .addGroup(panelStudentLayout.createSequentialGroup()
-                        .addGap(128, 128, 128)
-                        .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
-                .addContainerGap(46, Short.MAX_VALUE)
-                .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
-                            .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(111, 111, 111))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
-                            .addComponent(nomeStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(25, 25, 25))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
-                            .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(116, 116, 116)))
-                    .addGroup(panelStudentLayout.createSequentialGroup()
-                        .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(rgStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cpfStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(nomePaiStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(nomeMaeStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(serieEscolarStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(idadeStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap())))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -188,11 +157,43 @@ public class cadastroMenu extends javax.swing.JFrame {
                         .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(111, 111, 111))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
-                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(127, 127, 127))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
                         .addComponent(submitStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(65, 65, 65))))
+                        .addGap(65, 65, 65))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(109, 109, 109))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                .addContainerGap(46, Short.MAX_VALUE)
+                .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                                .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(111, 111, 111))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                                .addComponent(nomeStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(25, 25, 25)))
+                        .addGroup(panelStudentLayout.createSequentialGroup()
+                            .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(rgStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(cpfStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(nomePaiStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(nomeMaeStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(serieEscolarStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(idadeStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addContainerGap()))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                        .addComponent(jLabel20)
+                        .addGap(104, 104, 104))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                        .addComponent(jLabel22)
+                        .addGap(110, 110, 110))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                        .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(128, 128, 128))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelStudentLayout.createSequentialGroup()
+                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(123, 123, 123))))
             .addGroup(panelStudentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panelStudentLayout.createSequentialGroup()
                     .addGap(123, 123, 123)
@@ -214,7 +215,7 @@ public class cadastroMenu extends javax.swing.JFrame {
                 .addComponent(idadeStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel20)
-                .addGap(12, 12, 12)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(serieEscolarStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel22)
@@ -243,7 +244,6 @@ public class cadastroMenu extends javax.swing.JFrame {
         );
 
         panelEmployee.setVisible(false);
-        panelEmployee.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel2.setFont(new java.awt.Font("Inter", 1, 18)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -262,15 +262,19 @@ public class cadastroMenu extends javax.swing.JFrame {
         serieEscolar3.addActionListener(this::serieEscolar3ActionPerformed);
 
         jLabel26.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel26.setText("Nome Pai: ");
 
         jLabel27.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel27.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel27.setText("Idade");
 
         jLabel28.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel28.setText("Serie Escolar:");
 
         jLabel29.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel29.setText("Rg:");
 
         nomeMae3.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -278,6 +282,7 @@ public class cadastroMenu extends javax.swing.JFrame {
         nomeMae3.addActionListener(this::nomeMae3ActionPerformed);
 
         jLabel30.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel30.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel30.setText("Nome Mãe: ");
 
         rg3.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -285,6 +290,7 @@ public class cadastroMenu extends javax.swing.JFrame {
         rg3.addActionListener(this::rg3ActionPerformed);
 
         jLabel31.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel31.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel31.setText("Cpf:");
 
         idade3.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -292,6 +298,7 @@ public class cadastroMenu extends javax.swing.JFrame {
         idade3.addActionListener(this::idade3ActionPerformed);
 
         jLabel32.setFont(new java.awt.Font("Inter", 1, 14)); // NOI18N
+        jLabel32.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel32.setText("Nome:");
 
         nomePai3.setFont(new java.awt.Font("Inter", 2, 18)); // NOI18N
@@ -417,7 +424,7 @@ public class cadastroMenu extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(panelStudent, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(panelEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
