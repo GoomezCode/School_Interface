@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/Application.java to edit this template
  */
 package com.mycompany.projectschoolinterface.FrontEnd;
-import com.mycompany.projectschoolinterface.BackEnd.addStatusStudent;
 
 
 /**
@@ -40,7 +39,7 @@ public class interfaceStatusStudent extends javax.swing.JFrame {
 
         setResizable(false);
 
-        jTextField1.setText("Nome: "+ addStatusStudent.student.getNome());
+        // jTextField1.setText("Nome: "+ addStatusStudent.student.getNome());
         jTextField1.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextField1.setEnabled(false);
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -49,7 +48,7 @@ public class interfaceStatusStudent extends javax.swing.JFrame {
             }
         });
 
-        jTextField2.setText("Idade: "+addStatusStudent.student.getIdade());
+        // jTextField2.setText("Idade: "+addStatusStudent.student.getIdade());
         jTextField2.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextField2.setEnabled(false);
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -58,7 +57,7 @@ public class interfaceStatusStudent extends javax.swing.JFrame {
             }
         });
 
-        jTextField3.setText("Serie Escolar:"+addStatusStudent.student.getSerieEscolar());
+        // jTextField3.setText("Serie Escolar:"+addStatusStudent.student.getSerieEscolar());
         jTextField3.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextField3.setEnabled(false);
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
@@ -67,7 +66,7 @@ public class interfaceStatusStudent extends javax.swing.JFrame {
             }
         });
 
-        jTextField4.setText("Nome Mãe:"+addStatusStudent.student.getNomeMae());
+        // jTextField4.setText("Nome Mãe:"+addStatusStudent.student.getNomeMae());
         jTextField4.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextField4.setEnabled(false);
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
@@ -76,7 +75,7 @@ public class interfaceStatusStudent extends javax.swing.JFrame {
             }
         });
 
-        jTextField5.setText("Nome Pai:"+addStatusStudent.student.getNomePai());
+        // jTextField5.setText("Nome Pai:"+addStatusStudent.student.getNomePai());
         jTextField5.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextField5.setEnabled(false);
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +84,7 @@ public class interfaceStatusStudent extends javax.swing.JFrame {
             }
         });
 
-        jTextField6.setText("Cpf:"+addStatusStudent.student.getCpf());
+        // jTextField6.setText("Cpf:"+addStatusStudent.student.getCpf());
         jTextField6.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextField6.setEnabled(false);
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
@@ -94,7 +93,7 @@ public class interfaceStatusStudent extends javax.swing.JFrame {
             }
         });
 
-        jTextField7.setText("Rg:"+addStatusStudent.student.getRg());
+        // jTextField7.setText("Rg:"+addStatusStudent.student.getRg());
         jTextField7.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextField7.setEnabled(false);
         jTextField7.addActionListener(new java.awt.event.ActionListener() {

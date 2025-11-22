@@ -1,4 +1,4 @@
-package com.mycompany.projectschoolinterface.Constantes;
+package com.mycompany.projectschoolinterface.BackEnd.Constantes;
 
 public interface statusNota {
     public static String APROVADO = "APROVADO";
