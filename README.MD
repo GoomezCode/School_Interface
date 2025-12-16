@@ -1,6 +1,8 @@
 > ---
 >
->**<h1 align="center"> TechStudy <br> <span><img src="https://img.shields.io/badge/Status-Projeto%20em Andamento-blue" /></span></h1>**
+>***<h1 align="center"> TechStudy <br></h1>***
+>
+><h3 align="center"><img src="https://img.shields.io/badge/Status-Projeto%20em Andamento-blue" /></h3>
 >
 >### **Descrição:**
 >
