@@ -1,47 +1,40 @@
-# Project School with interafce
-
-> ## Descrição:
-> Esse Projeto cria um Student dentro do Sistema da Escola e mostra os seus Status,
-> a parte de Criar o Student e ver os seus status estão em interface.
-> 	As interfaces foi Contruidas com a Biblioteca do Java.Swing do próprio java,
-> a criação da interface eu fiz Usando o ***Net Breans***  muito usado para a criação
-> de interface para Desktop
-> 	Eu fiz Esse Projeto para testar os meus Conhecimento de criação de interface 
-> 	para **Desktop** eu usei a mesma logica de criação de codigo do meu outro projeto
-> 	[SoftwareSchool](https://github.com/GoomezCode/SoftwareSchool) que está no meu **GitHub**
-> ## Liguagem Usada:
->![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
->
+| |
+:----: |
+**TechStudy**| 
 > ---
-
-## Ajustes e Melhorias
-O projeto está em sempre constante atualizações que está voltada as **Tarefas** e as proximas tarefas serão :
-- [X] Contrução da Lógica do projeto
-- [ ] Construção da interface (totalmente dinâmica)
-- [ ] Contrução do banco de Dados (Para a criação de **Cadastro** e **Login** ) 
-- [ ] Transferir isso para uma Página Web e Desktop (totalmente funcional)
-- [ ] Adicionar temas **white** e **dark**
-- [ ] Documentar o projeto totalmente **English** 
-- [ ] Adicionar **HTML**, **CSS** e **JavaScript** para um frontEnd
-- [ ] Irei Escrever os usuários dos **admins**(Gerenciar Salario, Faltas, batePontos e etc..) e funcionarios(professores, estágiario, Limpeza )
-
-
->***
+>### **Descrição:**
 >
-> ## Apresentação das Interfaces do Aluno:  
-> Adicionar os dados de um Aluno | Status de todos os dados
-> :--: | :--:  
-> <img src="src/main/java/com/mycompany/projectschoolinterface/IMG/TelaPrimaria.png"/> | <img src="src/main/java/com/mycompany/projectschoolinterface/IMG/TelaSegundaria.png"/>
-> 
->***
-
->***
+>Eai, Bem Vindo ao meu projeto, ele está sendo desenvolvido para a organização da escola, O software pode ser contratado por diversas outras escola, cada contrato o software vai ser único, cada escola pode personalizar o software do seu proprio estilo de uma forma mais confortável
 >
-> ## Lincença:
-> Este projeto está sob a licença MIT. Veja o arquivo **[LICENSE](LICENSE.txt)** para mais detalhes.
-> ## **Autor:**
-> Feito Por **[GoomezCode](https://github.com/GoomezCode)**
-> Email para Contato @danielgdpaula@gmail.com
+>Esse software vai ser muito util pois ele ira oraganizar os funcionarios, Estudantes, Responsável, Horários, turmas e muito mais
 >
->***
-
+>Eu criei uma escola para usar como exemplo ao decorer do projeto, ela é uma escola Ficticia chamada **Virtus Academy** essa escola seria uma escola particular tanto para o Ensino médio, Ensino Fundamental e algumas falcudades, ela é uma escola de **grande escala**
+>
+>### **Idea of Project:**
+>
+>
+>### **About the Development:**
+>
+>Por agora eu Estou desenvolvendo a estrutura Logica do projeto para que eu possa ter uma melhor organização e que eu não fique perdido ná escrita do código
+>
+>### **Structure Project:**
+>> **IDE:**
+>>
+>>![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+>>
+>>![NetBeans IDE](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
+>
+>>**Languagem:**
+>>
+>>![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+>
+>### **Developer of TechStudy**
+>
+>>**GoomezCode**
+>>
+>>[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GoomezCode)
+>>
+>>[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/goomezcode/)
+>>
+>>Gmail --> danielgdpaula@gmail.com
+> ---
