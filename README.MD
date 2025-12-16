@@ -1,7 +1,7 @@
-| |
-:----: |
-**TechStudy**| 
 > ---
+>
+>## **TechStudy**
+>
 >### **Descrição:**
 >
 >Eai, Bem Vindo ao meu projeto, ele está sendo desenvolvido para a organização da escola, O software pode ser contratado por diversas outras escola, cada contrato o software vai ser único, cada escola pode personalizar o software do seu proprio estilo de uma forma mais confortável
