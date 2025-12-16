@@ -1,6 +1,6 @@
 > ---
 >
-># **TechStudy**
+>**<h1 align="center"> TechStudy <br> <span><img src="https://img.shields.io/badge/Status-Projeto%20em Andamento-blue" /></span></h1>**
 >
 >### **Descrição:**
 >
@@ -14,6 +14,7 @@
 >
 >
 >### **About the Development:**
+>
 >
 >Por agora eu Estou desenvolvendo a estrutura Logica do projeto para que eu possa ter uma melhor organização e que eu não fique perdido ná escrita do código
 >
@@ -36,5 +37,5 @@
 >>
 >>[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/goomezcode/)
 >>
->>Gmail --> danielgdpaula@gmail.com
+>>![Gmail](https://img.shields.io/badge/Gmail-danielgdpaula@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 > ---
